@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18bec103-3cb1-495f-9ed1-556f4eaec183" name="Changes" comment="redux">
+      <change afterPath="$PROJECT_DIR$/src/redux/components/CreatePost/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/components/post/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/components/post/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/module/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/module/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/module/posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/module/posts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,11 +46,16 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="ReaderModeSettings">
     <option name="enabled" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\React\react-redux\src\redux\components" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -84,6 +86,8 @@
       <workItem from="1627992447555" duration="3754000" />
       <workItem from="1628012216684" duration="1352000" />
       <workItem from="1628017932455" duration="470000" />
+      <workItem from="1628018855594" duration="313000" />
+      <workItem from="1628019750747" duration="7225000" />
     </task>
     <servers />
   </component>
