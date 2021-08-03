@@ -1,25 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import {connect} from "react-redux";
+import {getPosts as getPostsActions} from "./redux/module/posts";
+import Post from "./redux/components/post";
+import 'antd/dist/antd.css';
+import {useEffect} from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function App({posts, getPosts}) {
+    useEffect(() => {
+        getPosts()
+    },[])
+    console.log(posts)
+
+    return (
+        <div className="App">
+            {posts.map(item =>
+                <Post key={item.id} title={item.title} body={item.body}/>
+            )}
+
+        </div>
+    );
 }
 
-export default App;
+export default connect(
+    ({posts})=>({posts:posts.posts}),
+    {
+        getPosts: getPostsActions
+    }
+)(App);
